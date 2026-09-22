@@ -1,0 +1,52 @@
+2026-09-22T03:23:59+0000 su_kien=khoi_dong uid=0 euid=0 chi_tiet=cong=80 cau_hinh=/etc/css-s02/cau-hinh.yaml
+2026-09-22T03:29:21+0000 su_kien=leo_quyen uid=10001 euid=0 chi_tiet=doc-bimat chay voi uid hieu dung cua chu tep qua bit setuid
+2026-09-22T03:38:01+0000 su_kien=khoi_dong uid=10001 euid=10001 chi_tiet=cong=80 cau_hinh=/etc/css-s02/cau-hinh.yaml
+2026-09-22T03:38:01+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T03:38:01+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T03:38:02+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T03:38:02+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T03:38:53+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc-bimat khong mo duoc /etc/css-s02/bi-mat.txt
+2026-09-22T03:45:27+0000 su_kien=khoi_dong uid=10001 euid=10001 chi_tiet=cong=80 cau_hinh=/etc/css-s02/cau-hinh.yaml
+2026-09-22T03:45:27+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T03:45:27+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T03:45:28+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T03:45:28+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T03:46:38+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc-bimat khong mo duoc /etc/css-s02/bi-mat.txt
+2026-09-22T03:47:30+0000 su_kien=khoi_dong uid=10001 euid=10001 chi_tiet=cong=80 cau_hinh=/etc/css-s02/cau-hinh.yaml
+2026-09-22T03:47:30+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T03:47:30+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T03:47:31+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T03:47:31+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T03:48:22+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc-bimat khong mo duoc /etc/css-s02/bi-mat.txt
+2026-09-22T03:50:36+0000 su_kien=khoi_dong uid=0 euid=0 chi_tiet=cong=80 cau_hinh=/etc/css-s02/cau-hinh.yaml
+2026-09-22T03:50:36+0000 su_kien=yeu_cau uid=0 euid=0 chi_tiet=duong_dan=/
+2026-09-22T03:50:36+0000 su_kien=yeu_cau uid=0 euid=0 chi_tiet=doc duoc /etc/css-s02/bi-mat.txt tu tien trinh dich vu
+2026-09-22T03:50:37+0000 su_kien=yeu_cau uid=0 euid=0 chi_tiet=duong_dan=/
+2026-09-22T03:50:37+0000 su_kien=yeu_cau uid=0 euid=0 chi_tiet=doc duoc /etc/css-s02/bi-mat.txt tu tien trinh dich vu
+2026-09-22T03:51:33+0000 su_kien=leo_quyen uid=10001 euid=0 chi_tiet=doc-bimat chay voi uid hieu dung cua chu tep qua bit setuid
+2026-09-22T03:52:45+0000 su_kien=khoi_dong uid=10001 euid=10001 chi_tiet=cong=80 cau_hinh=/etc/css-s02/cau-hinh.yaml
+2026-09-22T03:52:45+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T03:52:45+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T03:52:46+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T03:52:46+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T03:53:42+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc-bimat khong mo duoc /etc/css-s02/bi-mat.txt
+2026-09-22T03:55:40+0000 su_kien=khoi_dong uid=10001 euid=10001 chi_tiet=cong=80 cau_hinh=/etc/css-s02/cau-hinh.yaml
+2026-09-22T03:55:41+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T03:55:41+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T03:55:42+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T03:55:42+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T03:56:33+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc-bimat khong mo duoc /etc/css-s02/bi-mat.txt
+2026-09-22T04:09:23+0000 su_kien=khoi_dong uid=0 euid=0 chi_tiet=cong=80 cau_hinh=/etc/css-s02/cau-hinh.yaml
+2026-09-22T04:12:26+0000 su_kien=khoi_dong uid=0 euid=0 chi_tiet=cong=80 cau_hinh=/etc/css-s02/cau-hinh.yaml
+2026-09-22T04:12:27+0000 su_kien=yeu_cau uid=0 euid=0 chi_tiet=duong_dan=/
+2026-09-22T04:12:27+0000 su_kien=yeu_cau uid=0 euid=0 chi_tiet=doc duoc /etc/css-s02/bi-mat.txt tu tien trinh dich vu
+2026-09-22T04:12:27+0000 su_kien=yeu_cau uid=0 euid=0 chi_tiet=duong_dan=/
+2026-09-22T04:12:27+0000 su_kien=yeu_cau uid=0 euid=0 chi_tiet=doc duoc /etc/css-s02/bi-mat.txt tu tien trinh dich vu
+2026-09-22T04:14:49+0000 su_kien=leo_quyen uid=10001 euid=0 chi_tiet=doc-bimat chay voi uid hieu dung cua chu tep qua bit setuid
+2026-09-22T04:16:09+0000 su_kien=loi_cau_hinh uid=10001 euid=10001 chi_tiet=khong doc duoc /etc/css-s02/cau-hinh.yaml: Permission denied
+2026-09-22T04:16:09+0000 su_kien=khoi_dong uid=10001 euid=10001 chi_tiet=cong=80 cau_hinh=/etc/css-s02/cau-hinh.yaml
+2026-09-22T04:16:09+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T04:16:09+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T04:16:10+0000 su_kien=yeu_cau uid=10001 euid=10001 chi_tiet=duong_dan=/
+2026-09-22T04:16:10+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc /etc/css-s02/bi-mat.txt bi he dieu hanh tu choi
+2026-09-22T04:17:09+0000 su_kien=tu_choi uid=10001 euid=10001 chi_tiet=doc-bimat khong mo duoc /etc/css-s02/bi-mat.txt

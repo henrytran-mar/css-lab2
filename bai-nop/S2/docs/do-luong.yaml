@@ -8,28 +8,39 @@
 # --- Năng lực của tiến trình dịch vụ ---
 # Đếm số năng lực trên dòng "Current:" của evidence/S02/capsh-truoc.txt và
 # capsh-sau.txt. Tập rỗng thì ghi 0.
-nang_luc_truoc:      # số nguyên
-nang_luc_sau:        # số nguyên
+nang_luc_truoc: 14
+nang_luc_sau: 0
 
 # --- Chỉ số làm cứng của Lynis ---
 # Lấy dòng "Hardening index" trong evidence/S02/lynis-truoc.txt và lynis-sau.txt.
-lynis_truoc:         # số nguyên từ 0 tới 100
-lynis_sau:           # số nguyên từ 0 tới 100
+lynis_truoc: 57
+lynis_sau: 57
 
 # Giải thích chênh lệch, tối thiểu 20 từ. Câu trả lời "chỉ số tăng vì em đã làm
 # cứng" không đạt. Nói rõ Lynis nhìn thấy thay đổi nào của bạn, và quan trọng hơn,
 # thay đổi nào của bạn nó KHÔNG nhìn thấy. Chỉ số không nhúc nhích cũng là một kết
 # quả hợp lệ nếu bạn giải thích được vì sao.
 lynis_giai_thich: >-
+  Lynis chỉ thấy được hai thay đổi của tôi là quyền tệp cấu hình (666 xuống 640)
+  và việc bỏ bit setuid của doc-bimat (4755 xuống 0755), nên nó vẫn ra cùng chỉ số
+  57. Ba thay đổi nặng nhất tôi làm gồm cap_drop ALL, no-new-privileges và hệ tệp
+  gốc read_only đều nằm ở tầng container chứ không phải bên trong hệ tệp của ảnh,
+  mà Lynis chỉ quét hệ tệp nên không nhìn thấy chúng. Vì vậy chỉ số đứng yên là kết
+  quả hợp lệ chứng minh tôi giảm rủi ro thật mà không tối ưu một con số thay thế.
 
 # --- Thí nghiệm stack protector ---
 # Hai mã thoát trong evidence/S02/stack-protector.txt.
-ma_thoat_khong_bao_ve:   # số nguyên
-ma_thoat_co_bao_ve:      # số nguyên
+ma_thoat_khong_bao_ve: 139
+ma_thoat_co_bao_ve: 134
 
 # --- Cổng dịch vụ nghe sau khi làm cứng ---
 # Ghi đúng cổng trong container, tức giá trị khóa cong của tệp cấu hình sau khi
 # bạn sửa. Giữ cổng 80 cũng được, đổi sang cổng không đặc quyền cũng được, miễn
 # là bạn nói được vì sao ở dòng dưới.
-cong_sau:
+cong_sau: 80
 vi_sao_chon_cong_do: >-
+  Tôi giữ cổng 80 để người dùng không phải đổi luồng truy cập và tôi không phải
+  sửa ánh xạ cổng trong compose lẫn tệp cấu hình. Vì 80 là cổng đặc quyền, tôi bù
+  bằng cách cấp lại đúng một năng lực NET_BIND_SERVICE, đủ để tiến trình sv không
+  còn chạy root vẫn nghe được cổng dưới 1024, còn toàn bộ tập năng lực mặc định
+  khác đã bị bỏ bằng cap_drop ALL.
