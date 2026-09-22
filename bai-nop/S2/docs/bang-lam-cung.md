@@ -1,6 +1,6 @@
 # Bảng làm cứng, lab S2
 
-Tên: *(điền)* · Mã số sinh viên: *(điền)* · Ngày nộp: *(điền)*
+Tên: Trần Hồ Quốc Minh · Mã số sinh viên: 31241020986 · Ngày nộp: 22/09/2026
 
 Mỗi dòng là một thay đổi bạn đã làm, không phải một thay đổi bạn định làm. Cần ít
 nhất bốn dòng, và trong đó ít nhất một dòng dẫn về kỹ thuật T1548.001 của ATT&CK
